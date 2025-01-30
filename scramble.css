@@ -4,6 +4,10 @@ body {
     align-content: center;
     justify-content: center;
     height: 80vh;
+    background-image: url(rainbow.gif);
+}
+nav {
+    background-color: #0047AB;
 }
 .inputs {
     display:flex;
@@ -14,6 +18,18 @@ body {
 img {
     object-fit: contain;
 }
+.gif {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
 .gif h1 {
-    text-align: center;
+    width: 100%;
+    text-align: center
+}
+a.home {
+    font-size: 128px;
+}
+.dumb {
+    width: 20vw
 }
