@@ -60,6 +60,7 @@ let letters = word.split('');
 letters.sort(() => 0.5 - Math.random());
 // Scrambling the letters using math to make it kind of random
 let letters_Scrambled = letters.join('');
+// if (letter_Scrambled == word);
 
 
 document.querySelector(".gif").innerHTML =`
@@ -67,13 +68,16 @@ document.querySelector(".gif").innerHTML =`
 
 let btn = document.getElementById('submit');
 btn.addEventListener('click', func);
-function func() {
+
+function func() { 
     let answer = document.getElementById("scrambled-word").value
+    if (answer == word)
+        alert('Congratulations, You got it Right!');
+    else
+        alert('You suck');
 }
 // Giving the User a prompt that will show the scrambled word
-if (answer == word)
-    alert('Congratulations, You got it Right!');
-else
-    alert('You suck');
+
 // if you get it right, you are right. If not then you suck
 
+// Add scoreboard
