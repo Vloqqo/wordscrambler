@@ -1,3 +1,4 @@
+let words = ['abaft', 'abase', 'abate', 'abbey', 'abbot', 'abhor', 'abide', 'abler',
     + 'abode', 'about', 'above', 'abuse', 'abyss', 'ached', 'aches', 'acids', 'acorn', 'acres',
     + 'acrid', 'acted', 'actor', 'acute', 'adage', 'adapt', 'added', 'adder', 'adept', 'adieu',
     + 'admit', 'adobe', 'adopt', 'adore', 'adorn', 'adult', 'aegis', 'aeons', 'affix', 'afire',
