@@ -60,14 +60,11 @@ let letters = word.split('');
 letters.sort(() => 0.5 - Math.random());
 // Scrambling the letters using math to make it kind of random
 let letters_Scrambled = letters.join('');
-document.querySelector(".load").insertAdjacentHTML("beforeend", `
-    <h1>Guess the word from the scrambled mess given: ${letters_Scrambled}</h1>
-    <section class="inputs">
-        <input type="text" name="guess" id="scrambled-word">
-        <input type="submit" value="Enter">
-    </section>`);
-// Then joining the letters back together
-// let answer = prompt(`Guess the word from the scrambled mess given: ${letters_Scrambled}`);
+
+
+document.querySelector(".gif").innerHTML =`
+    <h1>Guess the word from the scrambled mess given: ${letters_Scrambled}</h1>`;
+
 let btn = document.getElementById('submit');
 btn.addEventListener('click', func);
 function func() {
