@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    height: 80vh;
+}
+.inputs {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10vh
+}
+img {
+    object-fit: contain;
+}
+input {
+
+}
