@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="scramble.js"></script>
+    <script src="scramble.js" defer></script>
     <link rel="stylesheet" href="scramble.css">
 </head>
 
 <body class="import-scramble">
-    <img class="load" src="loading-gif.gif" alt="loading...">
+    <section class="gif">
+        <img class="load" src="loading-gif.gif" alt="loading...">
+    </section>
     <section class="inputs">
         <input type="text" name="guess" id="scrambled-word">
-        <input type="submit" value="Enter">
+        <input type="submit" id="submit" value="Enter">
     </section>
 </body>
 
