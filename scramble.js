@@ -10,11 +10,7 @@
  'hallux', 'haruspex', 'higgler', 'hinky', 'hoddy-noddy', 'hodiernal', 'hoggin', 'hongi', 'howff', 'humdudgeon', 'hunt-and-peck', 'hwyl', 'illywhacker', 'incrassate', 'incunabula', 'ingurgitate', 'inspissate', 'inunct', 'jumbuck', 'jumentous', 'jungli', 'karateka', 'keek', 'kenspeckle', 'kinnikinnick', 'kylie', 'labarum', 'lablab', 'lactarium', 'liripipe', 'loblolly', 'lobola', 'logomachy', 'lollygag', 'luculent', 'lycanthropy', 'macushla', 'mallam', 'mamaguy', 'martlet', 'mazel tov', 'meacock', 'merkin', 'merrythought', 'mim', 'mimsy', 'minacious', 'minibeast', 'misogamy', 'mistigris', 'mixologist', 'mollitious', 'momism', "monkey's wedding", 'monorchid', 'moonraker', 'mouse potato', 'mudlark', 'muktuk', 'mumpsimus', 'nacarat', 'nagware', 'nainsook', 'natation', 'nesh', 'netizen', 'noctambulist', 'noyade', 'nugacity', 'nympholepsy', 'obnubilate', 'ogdoad', 'omophagy', 'omphalos', 'onolatry', 'o-o', 'operose', 'opsimath', 'orectic', 'orrery', 'ortanique', 'otalgia', 'oxter', 'paludal', 'Pantagruelian', 'panurgic', 'parapente', 'paraph', 'patulous', 'pavonine', 'pedicular', 'peely-wally', 'peever', 'periapt', 'petcock', 'peterman', 'pettitoes', 'piacular', 'pilgarlic', 'pinguid', 'piscatorial', 'pleurodynia', 'plew', 'pneumonoul­tramicrosc­opicsilico­volcanocon­iosis', 'pogey', 'pollex', 'pooter', 'portolan', 'posology', 'possident', 'pother', 'pre-loved', 'presenteeism', 'previse', 'probang', 'prosopagnosia', 'puddle jumper', 'puddysticks', 'pyknic', 'pyroclastic', 'ragtop', 'ratite', 'rawky', 'razzia', 'rebirthing', 'resurrection man', 'retiform', 'rhinoplasty', 'rubiginous', 'rubricate', 'rude boy', 'rug rat', 'rumpot', 'sangoma', 'sarmie', 'saucier', 'saudade', 'scofflaw', 'screenager', 'scrippage', 'selkie', 'serac', 'sesquipedalian', 'shallop', 'shamal', 'shavetail', 'shippon', 'shofar', 'skanky', 'skelf', 'skimmington', 'skycap', 'snakebitten', 'snollygoster', 'sockdolager', 'solander', 'soucouyant', 'soul case', 'soul catcher', 'spaghettification', 'spitchcock', 'splanchnic', 'spurrier', 'stercoraceous', 'sternutator', 'stiction', 'strappado', 'strigil',
   'struthious', 'studmuffin', 'stylite', 'subfusc', 'submontane', 'succuss', 'sudd', 'suedehead', 'sun-grazing', 'superbious', 'superette', 'taniwha', 'tappen', 'tellurian', 'testudo', 'thalassic', 'thaumatrope', 'thirstland', 'thrutch', 'thurifer', 'tiffin', 'tigon', 'tokoloshe', 'toplofty', 'transpicuous', 'triskaidekaphobia', 'triskelion', 'tsantsa', 'turbary', 'ulu', 'umbriferous', 'uncinate', 'uniped', 'uroboros', 'ustad', 'vagarious', 'velleity', 'verjuice', 'vicinal', 'vidiot', 'vomitous', 'wabbit', 'waitron', 'wakeboarding', 'wayzgoose', 'winebibber', 'wish book', 'wittol', 'woopie', 'wowser', 'xenology', 'ylem', 'zetetic', 'zoolatry', 'zopissa', 'zorro', 'Zyrian',]
 
- 
- 
- 
-
-    // letwords = ['abaft', 'abate', 'abbey', 'abbot', 'abhor', 'abide', 'abler',
+    // let words = ['abaft', 'abate', 'abbey', 'abbot', 'abhor', 'abide', 'abler',
     // + 'abode', 'about', 'above', 'abuse', 'abyss', 'ached', 'aches', 'acids', 'acorn', 'acres',
     // + 'acrid', 'acted', 'actor', 'acute', 'adage', 'adapt', 'added', 'adder', 'adept', 'adieu',
     // + 'admit', 'adobe', 'adopt', 'adore', 'adorn', 'adult', 'aegis', 'aeons', 'affix', 'afire',
@@ -57,22 +53,30 @@
     // 'Rampant', 'Rampart', 'Rancher', 'Raisins', 'Ransack', 'Rapidly', 'Rapport', 'Rapture', 'Rattler' , 'Ravioli' , 'Reactor', 'Reality', 'Realize', 'Rebuild', 'Receipt', 'Receive', 'Recheck', 'Reclaim', 'Recline', 'Recover', 'Rectify', 'Recycle', 'Redbull', 'Redcoat', 'Redhead', 'Redline', 'Redneck', 'Redness', 'Redtail', 'Reducer', 'Redwood', 'Referee', 'Reflect', 'Refocus', 'Refract', 'Refrain', 'Refresh', 'Refugee', 'Refusal', 'Refutal', 'Regatta', 'Regimen', 'Regular', 'Reissue', 'Rejoice', 'Related', 'Relaxer', 'Relearn', 'Release', 'Remount', 'Reptile', 'Rescued', 'Rescuer', 'Reserve', 'Respect', 'Respond', 'Restate', 'Restore', 'Reteach', 'Retrain', 'Reunion', 'Reunite', 'Revolve', 'Ripcurl', 'Riptide', 'Riviera', 'Rosebud', 'Routine', 'Rowboat' , 'Rugrats', 'Sabbath', 'Sandman', 'Sarcasm', 'Satisfy', 'Scandal', 'Scenery', 'Scholar', 'Seabass', 'Seabird', 'Seafood', 'Seafowl', 'Seagull', 'Sealant' , 'Seaport', 'Seasick', 'Seaside', 'Seasons', 'Seawall', 'Seaward', 'Seaweed', 'Secrecy', 'Section', 'Secular', 'Secured', 'Serious', 'Selfish', 'Sellout', 'Sensors', 'Servant', 'Service', 'Setback', 'Settler', 'Seventy', 'Several', 'Shelter', 'Sheriff', 'Sherman', 'Shifter', 'Shirley', 'Shooter', 'Shorter', 'Sidearm', 'Sincere', 'Sitdown', 'Sixteen', 'Skijump', 'Skimask', 'Skipole', 'Skypark', 'Slavery', 'Smarter', 'Smuggle', 'Snowman', 'Snuggle', 'Society', 'Soldier', 'Someday', 'Speaker', 'Special', 'Species', 'Sponsor', 'Stadium', 'Stamina', 'Standup', 'Staples', 'Station', 'Storage', 'Stories', 'Stirfry', 'Stirrup', 'Streams', 'Strides', 'Student', 'Subject', 'Subsist', 'Subtext', 'Succeed', 'Success', 'Sucrose', 'Suggest', 'Suicide', 'Sulphur', 'Summary', 'Sunbath', 'Sunbelt', 'Sunbeam', 'Sunbelt', 'Sunburn', 'Sundays', 'Sundeck', 'Sundial', 'Sundown', 'Sunfish', 'Sunglow', 'Sunlamp', 'Sunland', 'Sunlike', 'Sunmaid', 'Sunrise', 'Sunroof', 'Sunroom', 'Sunsets', 'Sunspot', 'Support', 'Suppose', 'Supreme', 'Surgeon', 'Surgery', 'Survive', 'Suspend', 'Sweater', 'Swimmer', 'Swollen', 'Symptom', 'Tablets', 'Tabloid' , 'Tadpole', 'Talents', 'Tangent', 'Tangled', 'Taxcuts', 'Teacher', 'Teenage', 'Tension', 'Tequila', 'Termite', 'Terrify', 'Testify', 'Textile', 'Theatre', 'Therapy', 'Thermos', 'Thinker', 'Thirsty', 'Thought', 'Thunder', 'Timeout', 'Tubacco' , 'Toenail', 'Toering', 'Tonight', 'Tonnage', 'Topanga', 'Topdeck', 'Topless', 'Topload', 'Topples', 'Toprack', 'Topside', 
     // 'Topsoil', 'Tornado', 'Torture', 'Tourist', 'Towboat', 'Towhead', 'Tractor', 'Traitor', 'Transit', 'Treetop', 'Tribute', 'Trouble', 'Trouser', 'Trucker', 'Trumpet', 'Tuesday', 'Tunisia', 'Twinkle', 'Twister', 'Typhoid', 'Typical', 'Tyranny', 'Unhappy', 'Unheard', 'Unhinge', 'Unhitch', 'Unicorn', 'Unified', 'Uniform', 'Unitard', 'Unitary', 'Unkempt', 'Unknown', 'Unlatch' , 'Unlearn', 'Unleash', 'Unlevel', 'Unloose', 'Unlucky', 'Unquote', 'Unravel', 'Unready', 'Unscrew', 'Unstack', 'Unusual', 'Unwound', 'Unwoven', 'Updraft', 'Upfront', 'Upgrade', 'Upright', 'Upscale', 'Upstair', 'Upstate', 'Upsurge', 'Upswell', 'Upswept', 'Upswing', 'Uptight', 'Uranium', 'Urgency', 'Urinary', 'Urinate', 'Urology', 'Usually', 'Utensil', 'Utility', 'Utopian', 'Vacancy', 'Vaccine', 'Vagrant', 'Vaguely', 'Valance', 'Valuate', 'Valleys', 'Vampire', 'Vanilla', 'Vanload' , 'Vanpool', 'Variant', 'Variety', 'Vehicle', 'Velvety', 'Venison', 'Venture', 'Verdict', 'Version', 'Vibrate', 'Viceroy', 'Victory', 'Village', 'Vintage', 'Violate', 'Violent', 'Visitor' , 'Volcano', 'Waffles', 'Walnuts', 'Warbler', 'Warfare', 'Warrior', 'Washers', 'Wealthy', 'Weather', 'Webcast', 'Website', 'Webster', 'Weekend', 'Welcome', 'Welfare', 'Western', 'Wetness', 'Wetsuit', 'Whoever', 'Windows', 'Winners', 'Wipeout', 'Wiseman', 'Without', 'Witness', 'Worldly', 'Worship', 'Wrestle', 'Wronged', 'Zealous'];
 // All Possible words in the scrambler
-
-let word = words[Math.floor(Math.random() * words.length)];
+let theword, score = 0;
+function getWord() {
+    theword = words[Math.floor(Math.random() * words.length)];
 // Randonmly selecting the word from the possible values given in the array
-let letters = word.split('');
+let letters = theword.split('');
 // Splitting the letters in the word into individual characters
 letters.sort(() => 0.5 - Math.random());
 // Scrambling the letters using math to make it kind of random
+// let letters_Scrambled = letters.join('');
+if (letters.join('') == theword) {
+    letters.sort(() => 0.5 - Math.random());
+}
 let letters_Scrambled = letters.join('');
-// if (letter_Scrambled == word)
-//     letters.sort(() => 0.5 - Math.random());
-//     let letters_Scrambled = letters.join('');
-
-// Imports and replaces the gif with the scrambled letters
 document.querySelector(".gif").innerHTML =`
+    <p>Score: ${score}</p>
     <h1>Guess the word from the scrambled mess given:</h1> 
     <h1>${letters_Scrambled}</h1>`;
+
+}
+
+let letters_Scrambled = getWord();
+
+// Imports and replaces the gif with the scrambled letters
+
 // sets button equal to submit id
 let btn = document.getElementById('submit');
 btn.addEventListener('click', func);
@@ -80,14 +84,22 @@ btn.addEventListener('click', func);
 function func() {
     let answer = document.getElementById("scrambled-word").value
     // Makes answer equal to whatever they put
-    if (answer == word)
+    if (answer == theword) {
         alert('Congratulations, You got it Right!');
+        score += theword.length;
+    }
 
-    else
-        alert('You suck');
+    else {
+        alert(`You suck lol: ${theword}`);
+    }
+    getWord()
+
     // Simple checking if answer is right by comparing it to word binding
 }
 
+function leaderboard() {
+
+}
 
 // if you get it right, you are right. If not then you suck
 // IDEAS
@@ -95,3 +107,5 @@ function func() {
 // Need to make it so script resets when you get it wrong
 // Showing the user the answer after they get it wrong
 // New Difficulties that give more points
+// Timer
+// Health counter???
