@@ -73,19 +73,25 @@ let letters_Scrambled = letters.join('');
 document.querySelector(".gif").innerHTML =`
     <h1>Guess the word from the scrambled mess given:</h1> 
     <h1>${letters_Scrambled}</h1>`;
-
+// sets button equal to submit id
 let btn = document.getElementById('submit');
 btn.addEventListener('click', func);
-
-function func() { 
+// Adds event listener that activates function on click
+function func() {
     let answer = document.getElementById("scrambled-word").value
+    // Makes answer equal to whatever they put
     if (answer == word)
         alert('Congratulations, You got it Right!');
+
     else
         alert('You suck');
+    // Simple checking if answer is right by comparing it to word binding
 }
-// Giving the User a prompt that will show the scrambled word
+
 
 // if you get it right, you are right. If not then you suck
-
+// IDEAS
 // Add scoreboard
+// Need to make it so script resets when you get it wrong
+// Showing the user the answer after they get it wrong
+// New Difficulties that give more points
