@@ -1,3 +1,111 @@
+// const SLOTS_PER_REEL = 12;
+// // radius = Math.round( ( panelWidth / 2) / Math.tan( Math.PI / SLOTS_PER_REEL ) ); 
+// // current settings give a value of 149, rounded to 150
+// const REEL_RADIUS = 150;
+
+// function createSlots (ring) {
+	
+// 	var slotAngle = 360 / SLOTS_PER_REEL;
+
+// 	var seed = getSeed();
+
+// 	for (var i = 0; i < SLOTS_PER_REEL; i ++) {
+// 		var slot = document.createElement('div');
+		
+// 		slot.className = 'slot';
+
+// 		// compute and assign the transform for this slot
+// 		var transform = 'rotateX(' + (slotAngle * i) + 'deg) translateZ(' + REEL_RADIUS + 'px)';
+
+// 		slot.style.transform = transform;
+
+// 		// setup the number to show inside the slots
+// 		// the position is randomized to 
+
+// 		var content = $(slot).append('<p>' + ((seed + i)%27)+ '</p>');
+
+// 		// add the poster to the row
+// 		ring.append(slot);
+// 	}
+// }
+
+// function getSeed() {
+// 	// generate random number smaller than 13 then floor it to settle between 0 and 12 inclusive
+// 	return Math.floor(Math.random()*(SLOTS_PER_REEL));
+// }
+
+// function spin(timer) {
+// 	//var txt = 'seeds: ';
+// 	for(var i = 1; i < 6; i ++) {
+// 		var oldSeed = -1;
+// 		/*
+// 		checking that the old seed from the previous iteration is not the same as the current iteration;
+// 		if this happens then the reel will not spin at all
+// 		*/
+// 		var oldClass = $('#ring'+i).attr('class');
+// 		if(oldClass.length > 4) {
+// 			oldSeed = parseInt(oldClass.slice(10));
+// 			console.log(oldSeed);
+// 		}
+// 		var seed = getSeed();
+// 		while(oldSeed == seed) {
+// 			seed = getSeed();
+// 		}
+
+// 		$('#ring'+i)
+// 			.css('animation','back-spin 1s, spin-' + seed + ' ' + (timer + i*0.5) + 's')
+// 			.attr('class','ring spin-' + seed);
+// 	}
+
+// 	console.log('=====');
+// }
+
+// $(document).ready(function() {
+
+// 	// initiate slots 
+//  	createSlots($('#ring1'));
+//  	createSlots($('#ring2'));
+//  	createSlots($('#ring3'));
+//  	createSlots($('#ring4'));
+//  	createSlots($('#ring5'));
+
+//  	// hook start button
+//  	$('.go').on('click',function(){
+//  		var timer = 2;
+//  		spin(timer);
+//  	})
+
+//  	// hook xray checkbox
+//  	$('#xray').on('click',function(){
+//  		//var isChecked = $('#xray:checked');
+//  		var tilt = 'tiltout';
+ 		
+//     if($(this).is(':checked')) {
+//  			tilt = 'tiltin';
+//  			$('.slot').addClass('backface-on');
+//  			$('#rotate').css('animation',tilt + ' 2s 1');
+
+// 			setTimeout(function(){
+// 			  $('#rotate').toggleClass('tilted');
+// 			},2000);
+//  		} else {
+//       tilt = 'tiltout';
+//  			$('#rotate').css({'animation':tilt + ' 2s 1'});
+
+// 			setTimeout(function(){
+// 	 			$('#rotate').toggleClass('tilted');
+// 	 			$('.slot').removeClass('backface-on');
+// 	 		},1900);
+//  		}
+//  	})
+
+//  	// hook perspective
+//  	$('#perspective').on('click',function(){
+//  		$('#stage').toggleClass('perspective-on perspective-off');
+//  	})	
+//  });
+
+
    let words = ['aardwolf', 'aasvogel', 'aba', 'abacinate', 'abactor', 'abaculus', 'abaft', 'abampere', 'abapical', 'abarticular', 'abasement', 'abasia', 'abask', 'abatis', 'abatjour', 'abattoir', 'abature', 'abb', 'abba', 'abbatial', 'abbozzo', 'abditive', 'abdominous', 'abducent', 'abeam', 'abear', 'abecedarian', 'abecedism', 'abele', 'abeng', 'aberdevine', 'aberuncators', 'abessive', 'abiectic', 'abigail', 'abigeus', 'abiogenesis', 'abiotrophy', 'abirritate', 'abiturient', 'abject', 'ablactation', 'ablative', 'ablator', 'ablaut', 'ablegate', 'ablepsia', 'ablow', 'abluent', 'ablution', 'ablutomania', 'abnegate', 'abodement', 'aboideau', 'abolla', 'abomasum', 'aboral', 'abord', 'aborning', 'aborticide', 'abortuary', 'aboulia', 'aboulomania', 'aboutsledge', 'abra', 'abradant', 'abraid', 'abraxas', 'abreuvoir', 'abroach', 'abrosia', 'abscind', 'abscissa', 'abscission', 'absconce', 'abseil', 'absentaneous', 'absinthial', 'absinthism', 'absit', 'absolutism', 'absolutive', 'absolutory', 'absonant', 'absorbefacient', 'absorptiometer', 'absquatulate', 'absterge', 'absurdism', 'abterminal', 'abthane', 'abulia', 'abuna', 'abusion', 'abutment', 'abvolt', 'aby', 'abyssopelagic', 'academicism', 'acanaceous', 'acantha', 'acanthous', 'acapnia', 'acapnotic', 'acariasis', 'acaricide', 'acarine', 'acarology', 'acarophobia', 'acarpous', 'acatalectic', 'acatalepsy', 'acatamathesia', 'acates', 'acatour', 'acaudate', 'acaulescent', 'accelerometer', 'accend', 'accensor', 'accentor', 'acceptilation', 'accessit', 'acciaccatura', 'accidence', 'accidentalism', 'accidie', 'accinge', 'accipiter', 'accipitral', 'accipitrine', 'accismus', 'accite', 'acclinate', 'acclivity', 'accloy', 'accolade', 'accolent', 'accollé', 'accosted', 'accoucheur', 'accoucheuse', 'accourage', 'accourt', 'accoy', 'accrementition', 'accretion', 'accubation', 'accubitum', 'accusative', 'acedia', 'aceldama', 'aceology', 'acequia', 'acerate', 'acerbate', 'acerous', 'acersecomic', 'acervate', 'acervuline', 'acescence', 'acetabulum', 'acetarious', 'acetimeter', 'achaenocarp', 'acharné', 'achene', 'achloropsia',
  'achor', 'achromatopsia', 'achroous', 'acicular', 'acidaemia', 'acidimeter', 'acidulous', 'acierate', 'acinaceous', 'acinaciform', 'aciniform', 'acinus', 'acipenser', 'ackamarackus', 'aclinic', 'acock', 'acoemeti', 'acology', 'acolous', 'acolouthic', 'acopic', 'acoria', 'acosmism', 'acouasm', 'acquest', 'acracy', 'acratia', 'acre-breadth', 'acritochromacy', 'acroamatic', 'acrocephalous', 'acrography', 'acrolith', 'acrologic', 'acromegaly', 'acronical', 'acronym', 'acronyx', 'acropathy', 'acrophobia', 'acrophonic', 'acropodium', 'acroscopic', 'acroteleutic', 'acroterion', 'acrotism', 'actinism', 'actinograph', 'actinometer', 'actinotherapy', 'acton', 'actuate', 'aculeate', 'aculeiform', 'acultomancy', 'acuminate', 'acutiator', 'acutorsion', 'acyanopsia', 'acyesis', 'acyrology', 'adactylous', 'adamantine', 'adamitism', 'adaxial', 'addax', 'addax', 'additament', 'addititious', 'addle', 'addorsed', 'adduce', 'adeciduate', 'adeem', 'adelaster', 'adelphogamy', 'ademption', 'adenalgia', 'adenia', 'adeniform', 'adenography', 'adenoid', 'adenology', 'adenotomy', 'adespota', 'adessive', 'adevism', 'adharma', 'adhibit', 'adhocracy', 'adiabatic', 'adiaphoresis', 'adiaphorism', 'adiaphoron', 'adiapneustia', 'adiathermancy', 'adipescent', 'adipic', 'adipocere', 'adipsia', 'adit', 'adjudge', 'adjutage', 'adjutant', 'adjutor', 'adjuvant', 'admanuensis', 'admaxillary', 'admeasurement', 'adminicle', 'adnascent', 'adnominal', 'adnomination', 'adnoun', 'adonise', 'adoptionism', 'adoral', 'adosculation', 'adown', 'adoxography', 'adoxy', 'adpress', 'adrogation', 'adscititious', 'adscript', 'adsorb', 'adumbrate', 'adunc', 'aduncate', 'adust', 'advection', 'advehent', 'advenient', 'adventitious', 'adventive', 'adversaria', 'adversative', 'advert', 'advertorial', 'advesperate', 'advocaat', 'advowson', 'adynamia', 'adynaton', 'adytum', 'adzebill', 'aedile', 'aedoeology', 'aegilops', 'aegis', 'aegrotat', 'aeneous', 'aeolian', 'aeolipyle', 'aeolistic', 'aeolotropy', 'aeonian', 'aepyornis', 'aerenchyma', 'aeriform', 'aerious', 'aerobe', 'aerobiology', 'aerodonetics', 'aerogenesis',
   'aerography', 'aerolite', 'aerolith', 'aerolithology', 'aerology', 'aeromancy', 'aerometer', 'aerophane', 'aerophilately', 'aerophobia', 'aerophone', 'aerophore', 'aeropleustic', 'aerostat', 'aerostatics', 'aeruginous', 'aerugo', 'aesc', 'aesopian', 'aesthesia', 'aesthesiogenic', 'aestheticism', 'aestival', 'aethrioscope', 'aeviternal', 'aeviternity', 'afebrile', 'affabulation', 'affeer', 'afferent', 'affiance', 'affine', 'afflated', 'afflatus', 'afforce', 'afforest', 'affranchise', 'affray', 'affrayer', 'affreightment', 'affreux', 'affricate', 'affronté', 'affusion', 'afore', 'afterclap', 'afterdeck', 'aftergame', 'afterguard', 'afterhand', 'afterings', 'afterpiece', 'aftershaft', 'afterwil', 'agacerie', 'agalactia', 'agalloch', 'agamist', 'agamogenesis', 'agape', 'agapeistic', 'agapet', 'agapetae', 'agapism', 'agastopia', 'agatewear', 'agathism', 'agathodaimon', 'agelast', 'agennesic', 'agenocratia', 'agentive', 'ageotropic', 'agersia', 'ageusia', 'agger', 'aggerose', 'aggiornamento', 'aggrade', 'aggrandize', 'aggrate', 'aggry', 'agio', 'agiotage', 'agist', 'agistment', 'aglet', 'agma', 'agminate', 'agnail', 'agname', 'agnation', 'agnize', 'agnomen', 'agnomination', 'agnosic', 'agnosticism', 'agnosy', 'agoge', 'agogic', 'agomphosis', 'agone', 'agonic', 'agonism', 'agonistes', 'agonistic', 'agonistics', 'agoraphobia', 'agouti', 'agowilt', 'agraffe', 'agrapha', 'agraphia', 'agravic', 'agrestic', 'agriology', 'agrize', 'agrizoiatry', 'agrobiology', 'agrology', 'agromania', 'agronomics', 'agrostography', 'agrostology', 'agrypnia', 'agrypnotic', 'aguardiente', 'agyiophobia', 'agynary', 'ahimsa', 'ahull', 'ai', 'aichmophobia', 'aiger', 'aigrette', 'aiguille', 'aileron', 'ailette', 'ailuromancy', 'ailurophilia', 'ailurophobia', 'aioli', 'airscrew', 'aischrolatry', 'aisling', 'ait', 'aitchbone', 'aiué', 'akeratophorous', 'akinesia', 'ala', 'alabamine', 'alack', 'alalia', 'alameda', 'alamode', 'alamort', 'alannah', 'alar', 'alastrim', 'alate', 'alation', 'alaudine', 'alb', 'albarello', 'albata', 'albe', 'albedo', 'albescent', 'albicant', 'albificative', 
