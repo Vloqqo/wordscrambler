@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Scrambler!</title>
     <script src="scramble.js" defer></script>
+    <script type="module" src="stuff.js" defer></script>
     <link rel="stylesheet" href="scramble.css">
 </head>
 
@@ -18,9 +19,9 @@
     <section class="gif">
         <img class="load" src="loading-gif.gif" alt="loading...">
     </section>
-    <!-- <section class="spinner">
+    <section class="spinner">
         <canvas></canvas>
-    </section> -->
+    </section>
     <section class="inputs">
         <input type="text" name="guess" id="scrambled-word">
         <input type="submit" id="submit" value="Enter">
@@ -31,5 +32,6 @@
         <button class="gamemode">Extreme Mode</button>
     </section>
 </body>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
 </html>
