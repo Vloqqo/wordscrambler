@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Scrambler!</title>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
     <script src="scramble.js" defer></script>
     <script type="module" src="stuff.js" defer></script>
     <link rel="stylesheet" href="scramble.css">
@@ -27,11 +28,9 @@
         <input type="submit" id="submit" value="Enter">
     </section>
     <section class="gamemodes">
-        <button class="gamemode">Hard Mode</button>
-        <button class="gamemode">Easy Mode</button>
-        <button class="gamemode">Extreme Mode</button>
+        <button id="hard" class="gamemode">Hard Mode</button>
+        <button id='easy' class="gamemode">Easy Mode</button>
+        <button id='extreme' class="gamemode">Extreme Mode</button>
     </section>
 </body>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
 </html>
