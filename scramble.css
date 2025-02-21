@@ -96,3 +96,12 @@ a.home {
     width: 100%;
     justify-content: center;
   }
+section.leaderboard {
+    background-color: black;
+    color: white;
+    margin-top: 20vh;
+    height: 30.9vh;
+}
+section.heading, section.rankings {
+    text-align: center;
+}

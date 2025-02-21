@@ -11,14 +11,13 @@
     <link rel="stylesheet" href="scramble.css">
 </head>
 
-<body>
+<body onload="getDifficulty(difficulty)">
     <section class="nav">
         <img class="dumb" src="dance.gif" alt="dance">
         <a class="home" href="/index.html">Reload</a>
         <img class="dumb" src="typing.gif" alt="typing">
     </section>
     <section class="gif">
-        <img class="load" src="loading-gif.gif" alt="loading...">
     </section>
     <section class="spinner">
         <canvas></canvas>
@@ -28,9 +27,23 @@
         <input type="submit" id="submit" value="Enter">
     </section>
     <section class="gamemodes">
-        <button id="hard" class="gamemode">Hard Mode</button>
-        <button id='easy' class="gamemode">Easy Mode</button>
-        <button id='extreme' class="gamemode">Extreme Mode</button>
+        <button id="hard" onclick="getDifficulty(2)" class="gamemode">Hard Mode</button>
+        <button id='extreme' onclick="getDifficulty(1)" class="gamemode">Extreme Mode</button>
     </section>
+    <!-- <section class="leaderboard">
+        <section class="heading">
+            <h2>Leaderboard</h2>
+        </section>
+        <section class="rankings">
+            <ul id="leaderboard">
+
+            </ul>
+        </section>
+        <section class="uploadscore">
+            <input type="text" id="name">
+        </section>
+    </section> -->
+
 </body>
+
 </html>
