@@ -14,7 +14,7 @@ function getDifficulty(difficulty = 1) {
             'Accismus', 'Acumen', 'Anachronistic', 'Anthropomorphize', 'Apricate', 'Bastion', '(verb)', 'Burgeon', 'Convivial', 'Conundrum', 'Credulity', 'Crepuscular', 'Edify', 'Effete', 'Egregious', 'Eschew', 'Fatuous', 'Fractious', 'Galvanize', 'Imperious', 'Impetus', 'Insouciant', 'Interlocutor', 'Lionize', 'Melange', 'Metanoia', 'Myriad', 'Noisome', 'Obfuscate', 'Odious', 'Ostensibly', 'Paucity', 'Penultimate', 'Pernicious', 'Perspicacious', 'Philistine', 'Prevaricate', 'Rapscallion', 'Sagacious', 'Sanguine', 'Serendipity', 'Solipsist', 'Synecdoche', 'Timorous', 'Ubiquitous', 'Uhtceare', 'Ultracrepidarian', 'Verisimilitude', 'Visceral', 'Zeugma',
             'aa', 'abaya', 'abomasum', 'absquatulate', 'adscititious', 'afreet', 'Albertopolis', 'alcazar', 'amphibology', 'amphisbaena', 'anfractuous', 'anguilliform', 'apoptosis', 'apple-knocker', 'argle-bargle', 'Argus-eyed', 'argute', 'ariel', 'aristotle', 'aspergillum', 'astrobleme', 'Attic salt', 'autotomy', 'badmash', 'bandoline', 'bardolatry', 'Barmecide', 'barn burner', 'bashment', 'bawbee', 'benthos', 'bergschrund', 'bezoar', 'bibliopole', 'bichon frise', 'bilboes', 'bindlestiff', 'bingle', 'blatherskite', 'bleeding edge', 'blind pig', 'bobsy-die', 'boffola', 'boilover', 'borborygmus', 'breatharian', 'Brobdingnagian', 'bruxism', 'bumbo', 'burnsides', 'cacoethes', 'callipygian', 'callithumpian', 'camisado', 'canorous', 'cantillate', 'carphology', 'catoptromancy', 'cereology', 'cerulean', 'chad', 'chalkdown', 'chanticleer', 'chiliad', 'chump change', 'claggy', 'clepsydra', 'colporteur', 'comess', 'commensalism', 'comminatory', 'concinnity', 'congius', 'conniption', 'constellate', 'coprolalia', 'coriaceous', 'couthy', 'criticaster', 'crore', 'crottle', 'croze', 'cryptozoology', 'cudbear', 'cupreous', 'cyanic', 'cybersquatting', 'dariole', 'deasil', 'decubitus', 'deedy', 'defervescence', 'deglutition', 'degust', 'deipnosophist', 'deracinate', 'deterge', 'didi', 'digerati', 'dight', 'discobolus', 'disembogue', 'disenthral', 'divagate', 'divaricate', 'donkey engine', 'donkeyman', 'doryphore', 'dotish', 'douceur', 'draff', 'dragoman', 'dumbsize', 'dwaal', 'ecdysiast', 'edacious', 'effable', 'emacity', 'emmetropia', 'empasm', 'ensorcell', 'entomophagy', 'erf', 'ergometer', 'erubescent', 'e-tailer', 'etui', 'eucatastrophe', 'eurhythmic', 'eviternity', 'exequies', 'exsanguine', 'extramundane', 'eye candy', 'eyewater', 'famulus', 'fankle', 'fipple', 'flatline', 'flews', 'floccinaucinihilipilification', 'flocculent', 'force-ripe', 'forehanded', 'frondeur', 'fugacious', 'funambulist', 'furuncle', 'fuscous', 'futhark', 'futz', 'gaberlunzie', 'gaita', 'galligaskins', 'gallus', 'gasconade', 'glabrous', 'glaikit', 'gnathic', 'gobemouche', 'goodfella', 'guddle', 'habile',
             'hallux', 'haruspex', 'higgler', 'hinky', 'hoddy-noddy', 'hodiernal', 'hoggin', 'hongi', 'howff', 'humdudgeon', 'hunt-and-peck', 'hwyl', 'illywhacker', 'incrassate', 'incunabula', 'ingurgitate', 'inspissate', 'inunct', 'jumbuck', 'jumentous', 'jungli', 'karateka', 'keek', 'kenspeckle', 'kinnikinnick', 'kylie', 'labarum', 'lablab', 'lactarium', 'liripipe', 'loblolly', 'lobola', 'logomachy', 'lollygag', 'luculent', 'lycanthropy', 'macushla', 'mallam', 'mamaguy', 'martlet', 'mazel tov', 'meacock', 'merkin', 'merrythought', 'mim', 'mimsy', 'minacious', 'minibeast', 'misogamy', 'mistigris', 'mixologist', 'mollitious', 'momism', "monkey's wedding", 'monorchid', 'moonraker', 'mouse potato', 'mudlark', 'muktuk', 'mumpsimus', 'nacarat', 'nagware', 'nainsook', 'natation', 'nesh', 'netizen', 'noctambulist', 'noyade', 'nugacity', 'nympholepsy', 'obnubilate', 'ogdoad', 'omophagy', 'omphalos', 'onolatry', 'o-o', 'operose', 'opsimath', 'orectic', 'orrery', 'ortanique', 'otalgia', 'oxter', 'paludal', 'Pantagruelian', 'panurgic', 'parapente', 'paraph', 'patulous', 'pavonine', 'pedicular', 'peely-wally', 'peever', 'periapt', 'petcock', 'peterman', 'pettitoes', 'piacular', 'pilgarlic', 'pinguid', 'piscatorial', 'pleurodynia', 'plew', 'pneumonoul­tramicrosc­opicsilico­volcanocon­iosis', 'pogey', 'pollex', 'pooter', 'portolan', 'posology', 'possident', 'pother', 'pre-loved', 'presenteeism', 'previse', 'probang', 'prosopagnosia', 'puddle jumper', 'puddysticks', 'pyknic', 'pyroclastic', 'ragtop', 'ratite', 'rawky', 'razzia', 'rebirthing', 'resurrection man', 'retiform', 'rhinoplasty', 'rubiginous', 'rubricate', 'rude boy', 'rug rat', 'rumpot', 'sangoma', 'sarmie', 'saucier', 'saudade', 'scofflaw', 'screenager', 'scrippage', 'selkie', 'serac', 'sesquipedalian', 'shallop', 'shamal', 'shavetail', 'shippon', 'shofar', 'skanky', 'skelf', 'skimmington', 'skycap', 'snakebitten', 'snollygoster', 'sockdolager', 'solander', 'soucouyant', 'soul case', 'soul catcher', 'spaghettification', 'spitchcock', 'splanchnic', 'spurrier', 'stercoraceous', 'sternutator', 'stiction', 'strappado', 'strigil',
-            'struthious', 'studmuffin', 'stylite', 'subfusc', 'submontane', 'succuss', 'sudd', 'suedehead', 'sun-grazing', 'superbious', 'superette', 'taniwha', 'tappen', 'tellurian', 'testudo', 'thalassic', 'thaumatrope', 'thirstland', 'thrutch', 'thurifer', 'tiffin', 'tigon', 'tokoloshe', 'toplofty', 'transpicuous', 'triskaidekaphobia', 'triskelion', 'tsantsa', 'turbary', 'ulu', 'umbriferous', 'uncinate', 'uniped', 'uroboros', 'ustad', 'vagarious', 'velleity', 'verjuice', 'vicinal', 'vidiot', 'vomitous', 'wabbit', 'waitron', 'wakeboarding', 'wayzgoose', 'winebibber', 'wish book', 'wittol', 'woopie', 'wowser', 'xenology', 'ylem', 'zetetic', 'zoolatry', 'zopissa', 'zorro', 'Zyrian',].map(words => words.toLowerCase());
+            'struthious', 'studmuffin', 'stylite', 'subfusc', 'submontane', 'succuss', 'sudd', 'suedehead', 'sun-grazing', 'superbious', 'superette', 'taniwha', 'tappen', 'tellurian', 'testudo', 'thalassic', 'thaumatrope', 'thirstland', 'thrutch', 'thurifer', 'tiffin', 'tigon', 'tokoloshe', 'toplofty', 'transpicuous', 'triskaidekaphobia', 'triskelion', 'tsantsa', 'turbary', 'ulu', 'umbriferous', 'uncinate', 'uniped', 'uroboros', 'ustad', 'vagarious', 'velleity', 'verjuice', 'vicinal', 'vidiot', 'vomitous', 'wabbit', 'waitron', 'wakeboarding', 'wayzgoose', 'winebibber', 'wish book', 'wittol', 'woopie', 'wowser', 'xenology', 'ylem', 'zetetic', 'zoolatry', 'zopissa', 'zorro', 'Zyrian',];
     }
     if (difficulty == 2) {
         localStorage.setItem('difficulty', '2')
@@ -59,7 +59,7 @@ function getDifficulty(difficulty = 1) {
             'Halibut', 'Happily', 'Harbour', 'Harding', 'Harvest', 'Hatchet', 'Hateful', 'Healthy', 'Heights', 'Helpful', 'Heroism', 'Herself', 'Highest', 'Highway', 'Himself', 'History', 'Holiday', 'Holland', 'Homeboy', 'Honesty', 'Hopeful', 'Hotcake', 'Hotdogs', 'Husband', 'Hydrant', 'Iceberg', 'Iceland', 'Icicles', 'Ideally', 'Idolize', 'Illicit', 'Illness', 'Imagine', 'Impound', 'Impress', 'Improve', 'Inboard', 'Inbound', 'Incense', 'Incisor', 'Incline', 'Inclose', 'Include', 'Incomes', 'Incubus', 'Indoors', 'Indulge', 'Infancy', 'Inferno', 'Infidel', 'Inflame', 'Inflate', 'Inflict', 'Ingrain', 'Ingrown', 'Inhaler', 'Inherit', 'Initial', 'Inkblot', 'Inkling', 'Inkwell', 'Inlayer', 'Inquire', 'Inquiry', 'Insects', 'Insider', 'Insight', 'Inspect', 'Inspire', 'Install', 'Instant', 'Instead', 'Instill', 'Insular', 'Insurer', 'Intense', 'Interim', 'Interns', 'Introit', 'Intrude', 'Intrust', 'Intwine', 'Invader', 'Invoice', 'Involve', 'Islamic', 'Islands', 'Isolate', 'Itemize', 'Jamaica', 'January', 'Jasmine', 'Jealous', 'Jewelry', 'Journey', 'Justice', 'Justify', 'Kennedy', 'Keyhole', 'Keynote', 'Kingdom', 'Kinship', 'Kitchen', 'Kittens', 'Kneecap', 'Lantern', 'Laundry', 'Lawsuit', 'Lawyers', 'Leaders', 'Learner', 'Leather', 'Lenscap', 'Lessons', 'Letters', 'Liberal', 'Liberty', 'Library', 'License', 'Lincoln', 'Lipread', 'Literal', 'Livable', 'Lobster', 'Logical', 'Lovable', 'Lovebug', 'Lullaby', 'Machine', 'Madison', 'Madness', 'Magical', 'Magnify', 'Mailbag', 'Mailbox', 'Mailman', 'Majesty', 'Malaria', 'Maldive', 'Manager', 'Mandate', 'Manners', 'Markers', 'Married', 'Massage', 'Massive', 'Mastery', 'Meander', 'Measure', 'Medical', 'Members', 'Menthol', 'Mercury', 'Mermaid', 'Message', 'Methane', 'Michael', 'Midterm', 'Migrant', 'Migrate', 'Militia', 'Million', 'Misdial', 'Misfile', 'Mislead', 'Misread', 'Missile', 'Mission', 'Mistake', 'Mixture', 'Mobster', 'Modesty', 'Monarch', 'Monitor', 'Monolog', 'Monsoon', 'Monster', 'Montage', 'Monthly', 'Moocher', 'Moonlit', 'Morally', 'Morning', 'Moronic', 'Mortify', 'Mortise', 'Mudflap', 'Mudflow', 'Muffler', 'Muffins', 'Mundane', 'Musical', 'Mustang', 'Mustard', 'Mystery', 'Mystify', 'Nametag', 'Napkins', 'Narcism', 'Nations', 'Natives', 'Natural', 'Naughty', 'Nearest', 'Nebular', 'Necktie', 'Needles', 'Neglect', 'Nervous',
             'Network', 'Neurons', 'Neutral', 'Neutron', 'Newborn', 'Newsboy', 'Niagera', 'Nickels', 'Nightly', 'Nirvana', 'Nitrate', 'Nocturn', 'Noisily', 'Nomadic', 'Nominal', 'Nonstop', 'Nostril', 'Notable', 'Notably', 'Nothing', 'Novelty', 'Noxious', 'Nuclear', 'Nucleus', 'Nudnick', 'Nullify', 'Numbers', 'Numeral', 'Nunlike', 'Nunnery', 'Nursery', 'Nurture', 'Nutcase', 'Obesity', 'Observe', 'Obvious', 'Octagon', 'Octopus', 'October', 'Offense', 'Operate', 'Opinion', 'Organic', 'Ottoman', 'Outback', 'Outcast', 'Outcome', 'Outdoor', 'Outrage', 'Outside', 'Overall', 'Package', 'Painful', 'Painter', 'Pajamas', 'Pandora', 'Panther', 'Paradox', 'Parents', 'Parties', 'Partner', 'Passion', 'Patient', 'Patriot', 'Payment', 'Peanuts', 'Penalty', 'Pennies', 'Pension', 'Percent', 'Perfect', 'Perform', 'Perfume', 'Persist', 'Phonics', 'Phrases', 'Physics', 'Picture', 'Pigears', 'Pigtail', 'Pilgrim', 'Pinball', 'Pintail', 'Pioneer', 'Plastic', 'Playful', 'Plunder', 'Politic', 'Pollute', 'Popcorn', 'Poptart', 'Popular', 'Postage', 'Postbox', 'Postman', 'Praises', 'Prebake', 'Preboil', 'Precede', 'Precise', 'Predict', 'Preempt', 'Preface', 'Preheat', 'Preload', 'Prelude', 'Premade', 'Premier', 'Premise', 'Premium', 'Prepaid', 'Prepare', 'Preppie', 'Prequel', 'Presale', 'Present', 'Preshow', 'Presoak', 'Presume', 'Preteen', 'Pretend', 'Pretest', 'Pretzel', 'Prevail', 'Prevent', 'Preverb', 'Preview', 'Prewash', 'Preworn', 'Preying', 'Pricier', 'Prickly', 'Primage', 'Primary', 'Primate', 'Printer', 'Privacy', 'Private', 'Privies', 'Probate', 'Problem', 'Proceed', 'Process', 'Proctor', 'Procure', 'Prodigy', 'Produce', 'Product', 'Profane', 'Profess', 'Profile', 'Profuse', 'Progeny', 'Program', 'Project', 'Prolate', 'Proline', 'Prolong', 'Promise', 'Promote', 'Pronate', 'Pronoun', 'Propane', 'Prophet', 'Propose', 'Prorate', 'Prosody', 'Prosper', 'Protect', 'Protein', 'Protest', 'Protons', 'Proudly', 'Proverb', 'Provide', 'Provoke', 'Provost', 'Prowess', 'Prowler', 'Proxies', 'Prudent', 'Puberty', 'Publish', 'Pumpkin', 'Puppies', 'Purpose', 'Pursuit', 'Pyramid', 'Qualify', 'Quality', 'Quantum', 'Quarrel', 'Quarter', 'Queenly', 'Queerly', 'Quicken', 'Quicker', 'Quickly', 'Quieter', 'Quietly', 'Quilter', 'Quinine', 'Quintet', 'Quitter', 'Raccoon', 'Racecar', 'Raceway', 'Radiant', 'Radical', 'Ragtime', 'Ragweed', 'Railcar', 'Rainbow', 'Rambler',
             'Rampant', 'Rampart', 'Rancher', 'Raisins', 'Ransack', 'Rapidly', 'Rapport', 'Rapture', 'Rattler', 'Ravioli', 'Reactor', 'Reality', 'Realize', 'Rebuild', 'Receipt', 'Receive', 'Recheck', 'Reclaim', 'Recline', 'Recover', 'Rectify', 'Recycle', 'Redbull', 'Redcoat', 'Redhead', 'Redline', 'Redneck', 'Redness', 'Redtail', 'Reducer', 'Redwood', 'Referee', 'Reflect', 'Refocus', 'Refract', 'Refrain', 'Refresh', 'Refugee', 'Refusal', 'Refutal', 'Regatta', 'Regimen', 'Regular', 'Reissue', 'Rejoice', 'Related', 'Relaxer', 'Relearn', 'Release', 'Remount', 'Reptile', 'Rescued', 'Rescuer', 'Reserve', 'Respect', 'Respond', 'Restate', 'Restore', 'Reteach', 'Retrain', 'Reunion', 'Reunite', 'Revolve', 'Ripcurl', 'Riptide', 'Riviera', 'Rosebud', 'Routine', 'Rowboat', 'Rugrats', 'Sabbath', 'Sandman', 'Sarcasm', 'Satisfy', 'Scandal', 'Scenery', 'Scholar', 'Seabass', 'Seabird', 'Seafood', 'Seafowl', 'Seagull', 'Sealant', 'Seaport', 'Seasick', 'Seaside', 'Seasons', 'Seawall', 'Seaward', 'Seaweed', 'Secrecy', 'Section', 'Secular', 'Secured', 'Serious', 'Selfish', 'Sellout', 'Sensors', 'Servant', 'Service', 'Setback', 'Settler', 'Seventy', 'Several', 'Shelter', 'Sheriff', 'Sherman', 'Shifter', 'Shirley', 'Shooter', 'Shorter', 'Sidearm', 'Sincere', 'Sitdown', 'Sixteen', 'Skijump', 'Skimask', 'Skipole', 'Skypark', 'Slavery', 'Smarter', 'Smuggle', 'Snowman', 'Snuggle', 'Society', 'Soldier', 'Someday', 'Speaker', 'Special', 'Species', 'Sponsor', 'Stadium', 'Stamina', 'Standup', 'Staples', 'Station', 'Storage', 'Stories', 'Stirfry', 'Stirrup', 'Streams', 'Strides', 'Student', 'Subject', 'Subsist', 'Subtext', 'Succeed', 'Success', 'Sucrose', 'Suggest', 'Suicide', 'Sulphur', 'Summary', 'Sunbath', 'Sunbelt', 'Sunbeam', 'Sunbelt', 'Sunburn', 'Sundays', 'Sundeck', 'Sundial', 'Sundown', 'Sunfish', 'Sunglow', 'Sunlamp', 'Sunland', 'Sunlike', 'Sunmaid', 'Sunrise', 'Sunroof', 'Sunroom', 'Sunsets', 'Sunspot', 'Support', 'Suppose', 'Supreme', 'Surgeon', 'Surgery', 'Survive', 'Suspend', 'Sweater', 'Swimmer', 'Swollen', 'Symptom', 'Tablets', 'Tabloid', 'Tadpole', 'Talents', 'Tangent', 'Tangled', 'Taxcuts', 'Teacher', 'Teenage', 'Tension', 'Tequila', 'Termite', 'Terrify', 'Testify', 'Textile', 'Theatre', 'Therapy', 'Thermos', 'Thinker', 'Thirsty', 'Thought', 'Thunder', 'Timeout', 'Tubacco', 'Toenail', 'Toering', 'Tonight', 'Tonnage', 'Topanga', 'Topdeck', 'Topless', 'Topload', 'Topples', 'Toprack', 'Topside',
-            'Topsoil', 'Tornado', 'Torture', 'Tourist', 'Towboat', 'Towhead', 'Tractor', 'Traitor', 'Transit', 'Treetop', 'Tribute', 'Trouble', 'Trouser', 'Trucker', 'Trumpet', 'Tuesday', 'Tunisia', 'Twinkle', 'Twister', 'Typhoid', 'Typical', 'Tyranny', 'Unhappy', 'Unheard', 'Unhinge', 'Unhitch', 'Unicorn', 'Unified', 'Uniform', 'Unitard', 'Unitary', 'Unkempt', 'Unknown', 'Unlatch', 'Unlearn', 'Unleash', 'Unlevel', 'Unloose', 'Unlucky', 'Unquote', 'Unravel', 'Unready', 'Unscrew', 'Unstack', 'Unusual', 'Unwound', 'Unwoven', 'Updraft', 'Upfront', 'Upgrade', 'Upright', 'Upscale', 'Upstair', 'Upstate', 'Upsurge', 'Upswell', 'Upswept', 'Upswing', 'Uptight', 'Uranium', 'Urgency', 'Urinary', 'Urinate', 'Urology', 'Usually', 'Utensil', 'Utility', 'Utopian', 'Vacancy', 'Vaccine', 'Vagrant', 'Vaguely', 'Valance', 'Valuate', 'Valleys', 'Vampire', 'Vanilla', 'Vanload', 'Vanpool', 'Variant', 'Variety', 'Vehicle', 'Velvety', 'Venison', 'Venture', 'Verdict', 'Version', 'Vibrate', 'Viceroy', 'Victory', 'Village', 'Vintage', 'Violate', 'Violent', 'Visitor', 'Volcano', 'Waffles', 'Walnuts', 'Warbler', 'Warfare', 'Warrior', 'Washers', 'Wealthy', 'Weather', 'Webcast', 'Website', 'Webster', 'Weekend', 'Welcome', 'Welfare', 'Western', 'Wetness', 'Wetsuit', 'Whoever', 'Windows', 'Winners', 'Wipeout', 'Wiseman', 'Without', 'Witness', 'Worldly', 'Worship', 'Wrestle', 'Wronged', 'Zealous'].map(words => words.toLowerCase());
+            'Topsoil', 'Tornado', 'Torture', 'Tourist', 'Towboat', 'Towhead', 'Tractor', 'Traitor', 'Transit', 'Treetop', 'Tribute', 'Trouble', 'Trouser', 'Trucker', 'Trumpet', 'Tuesday', 'Tunisia', 'Twinkle', 'Twister', 'Typhoid', 'Typical', 'Tyranny', 'Unhappy', 'Unheard', 'Unhinge', 'Unhitch', 'Unicorn', 'Unified', 'Uniform', 'Unitard', 'Unitary', 'Unkempt', 'Unknown', 'Unlatch', 'Unlearn', 'Unleash', 'Unlevel', 'Unloose', 'Unlucky', 'Unquote', 'Unravel', 'Unready', 'Unscrew', 'Unstack', 'Unusual', 'Unwound', 'Unwoven', 'Updraft', 'Upfront', 'Upgrade', 'Upright', 'Upscale', 'Upstair', 'Upstate', 'Upsurge', 'Upswell', 'Upswept', 'Upswing', 'Uptight', 'Uranium', 'Urgency', 'Urinary', 'Urinate', 'Urology', 'Usually', 'Utensil', 'Utility', 'Utopian', 'Vacancy', 'Vaccine', 'Vagrant', 'Vaguely', 'Valance', 'Valuate', 'Valleys', 'Vampire', 'Vanilla', 'Vanload', 'Vanpool', 'Variant', 'Variety', 'Vehicle', 'Velvety', 'Venison', 'Venture', 'Verdict', 'Version', 'Vibrate', 'Viceroy', 'Victory', 'Village', 'Vintage', 'Violate', 'Violent', 'Visitor', 'Volcano', 'Waffles', 'Walnuts', 'Warbler', 'Warfare', 'Warrior', 'Washers', 'Wealthy', 'Weather', 'Webcast', 'Website', 'Webster', 'Weekend', 'Welcome', 'Welfare', 'Western', 'Wetness', 'Wetsuit', 'Whoever', 'Windows', 'Winners', 'Wipeout', 'Wiseman', 'Without', 'Witness', 'Worldly', 'Worship', 'Wrestle', 'Wronged', 'Zealous']
         // All Possible words in the scrambler
     }
     letters_Scrambled = getWord();
@@ -67,16 +67,9 @@ function getDifficulty(difficulty = 1) {
 let theword, score = 0;
 function getWord() {
     theword = words[Math.floor(Math.random() * words.length)];
-    // Randonmly selecting the word from the possible values given in the array
-    let letters = theword.split('');
-    // Splitting the letters in the word into individual characters
-    letters.sort(() => 0.5 - Math.random());
-    // Scrambling the letters using math to make it kind of random
-    if (letters.join('') == theword) {
-        letters.sort(() => 0.5 - Math.random());
-    }
+    // Randomly selecting the word from the possible values given in the array
     text = theword;  // The message displayed
-    chars = `abcdefghijklmnopqrstuvwxyz'",`;  // All possible Charactrers
+    chars = `abcdefghijklmnopqrstuvwxyz'",ABCDEFGHIJKLMNOPQRSTUVWXYZ `;  // All possible Charactrers
     scale = 20;  // Font size and overall scale
     breaks = 0.003;  // Speed loss per frame
     endSpeed = 0.05;  // Speed at which the letter stops
@@ -88,8 +81,14 @@ function getWord() {
     canvas = document.querySelector('canvas');
     ctx = canvas.getContext('2d');
 
+    // Splitting the letters in the word into individual characters
     text = text.split('');
-    let text2 = text.sort(() => 0.5 - Math.random());
+    // Scrambling the letters using math to make it kind of random
+    text = text.sort(() => 0.5 - Math.random());
+    // Checking if theword and the letters are the same
+    if (text.join('') == theword) {
+        text.sort(() => 0.5 - Math.random());
+    }
     chars = chars.split('');
     charMap = [];
     offset = [];
@@ -145,42 +144,37 @@ function getWord() {
         requestAnimationFrame(loop);
     });
 }
-
-function enter(id) {
-    const enterKey = document.getElementById(id);
+wordInput()
+function name() {
+    const enterKey = document.getElementById('name');
     enterKey.addEventListener("keydown", (event) => {
         if (event.key === "Enter") {
             alert("Posted Score to Leaderboard");
-            let name1 = document.getElementById('i1').value;
+            let name1 = document.getElementById('name').value;
             localStorage.setItem('Name', name1);
         }
 
     })
 }
 
+function wordInput() {
+    const enterKey = document.getElementById('scrambled-word');
+    enterKey.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+            let answer = document.getElementById('scrambled-word').value
+            // Makes answer equal to whatever they put
+            if (answer == theword) {
+                alert('Congratulations, You got it Right!');
+                score += theword.length;
+                return score;
+            }
+            else {
+                alert(`You suck lol: ${theword}`);
+            }
+            getWord()
+        }
 
-// let username = document.getElementById("name").value
-
-// Imports and replaces the gif with the scrambled letters
-
-// sets button equal to submit id
-let btn = document.getElementById('submit');
-btn.addEventListener('click', func);
-// Adds event listener that activates function on click
-function func() {
-    let answer = document.getElementById("scrambled-word").value
-    // Makes answer equal to whatever they put
-    if (answer == theword) {
-        alert('Congratulations, You got it Right!');
-        score += theword.length;
-        return score;
-    }
-    else {
-        alert(`You suck lol: ${theword}`);
-    }
-    getWord()
-
-    // Simple checking if answer is right by comparing it to word binding
+    })
 }
 
 // if you get it right, you are right. If not then you suck
