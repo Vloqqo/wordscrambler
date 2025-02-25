@@ -145,13 +145,14 @@ function getWord() {
     });
 }
 wordInput()
-function name() {
+function uploadStats() {
     const enterKey = document.getElementById('name');
     enterKey.addEventListener("keydown", (event) => {
         if (event.key === "Enter") {
             alert("Posted Score to Leaderboard");
             let name1 = document.getElementById('name').value;
             localStorage.setItem('Name', name1);
+            localStorage.setItem('points', points);
         }
 
     })
@@ -176,6 +177,7 @@ function wordInput() {
 
     })
 }
+
 
 // if you get it right, you are right. If not then you suck
 // IDEAS
