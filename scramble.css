@@ -103,7 +103,7 @@ section.leaderboard {
     height: 30.9vh;
 }
 
-section.uploadscore {
+section.upload {
     text-align: right;
     margin-right: 1vw
 }
@@ -131,4 +131,8 @@ section.rankings {
 
 hr {
     width: 3vw
+}
+
+section.score {
+    text-align: center;
 }

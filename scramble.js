@@ -143,21 +143,12 @@ function getWord() {
 
         requestAnimationFrame(loop);
     });
+    document.getElementById("points").innerHTML = `
+    <section class="score" id="score">
+    <p>${score}</p>
+    </section>`
 }
 wordInput()
-function uploadStats() {
-    const enterKey = document.getElementById('name');
-    enterKey.addEventListener("keydown", (event) => {
-        if (event.key === "Enter") {
-            alert("Posted Score to Leaderboard");
-            let name1 = document.getElementById('name').value;
-            localStorage.setItem('Name', name1);
-            localStorage.setItem('points', points);
-        }
-
-    })
-}
-
 function wordInput() {
     const enterKey = document.getElementById('scrambled-word');
     enterKey.addEventListener("keydown", (event) => {
